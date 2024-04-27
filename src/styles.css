@@ -1,0 +1,38 @@
+.main-container {
+  position: relative;
+  background-color: lightgray;
+}
+
+.qrcode-container {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border-radius: 1.75rem;
+  max-width: 360px;
+}
+
+@media (min-width: 600px) {
+  .qrcode-container {
+    margin-top: 18%;
+    margin-left: 35%;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 1.75rem;
+  padding: 1rem;
+}
+
+.header {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.text {
+  text-align: center;
+  padding: 0 3rem 1rem 3rem;
+  color: grey;
+}
